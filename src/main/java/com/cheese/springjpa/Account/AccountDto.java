@@ -2,6 +2,16 @@ package com.cheese.springjpa.Account;
 
 import lombok.*;
 
+// DTO 클래스의 필요성
+
+/**
+ * 데이터 안정성
+ *   - 원치 않는 데이터 변경을 방지
+ *   - 불필요한 값들이 넘어오면 잘못된 입력값이므로 Bad_Request 로 처리
+ *   - Response 타입이 객체이면 모든 정보를 노출시킬 수 있음.
+ * 명확한 요구사항
+ *   - 필요한 것들만을 요구할 수 있음
+ */
 public class AccountDto {
 
 
